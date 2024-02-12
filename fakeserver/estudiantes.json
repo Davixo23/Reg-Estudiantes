@@ -1,0 +1,74 @@
+{
+  "estudiantes": [
+    {
+      "id": "1",
+      "nombre": "David",
+      "apellido": "Condo",
+      "edad": 40,
+      "carrera": "Ing. Sistemas"
+    },
+    {
+      "id": "ddaa",
+      "nombre": "Jose",
+      "apellido": "Cortez",
+      "carrera": "Ing. Industrial",
+      "edad": 30
+    },
+    {
+      "id": "0dac",
+      "nombre": "David",
+      "apellido": "Lopez",
+      "carrera": "Ing. Sistemas",
+      "edad": "25"
+    },
+    {
+      "id": "6cb7",
+      "nombre": "Carlos",
+      "apellido": "Perez",
+      "carrera": "Ing. Alimentos",
+      "edad": "29"
+    },
+    {
+      "id": "e364",
+      "nombre": "Carla",
+      "apellido": "Cardenas",
+      "carrera": "Ing. Industrial",
+      "edad": 20
+    },
+    {
+      "id": "5ff3",
+      "nombre": "Luisa",
+      "apellido": "Oropeza",
+      "carrera": "Ing. de Sistemas",
+      "edad": 23
+    },
+    {
+      "id": "6e7e",
+      "nombre": "Victor",
+      "apellido": "Loa",
+      "carrera": "Ing. Industrial",
+      "edad": 24
+    },
+    {
+      "id": "6326",
+      "nombre": "Daniel",
+      "apellido": "Peredo",
+      "carrera": "Ing. Industrial",
+      "edad": 24
+    },
+    {
+      "id": "8824",
+      "nombre": "Jose Luis",
+      "apellido": "Lopez Perez",
+      "carrera": "Ing. de Sistemas",
+      "edad": 25
+    },
+    {
+      "id": "91aa",
+      "nombre": "Luis Felipe",
+      "apellido": "Cors",
+      "carrera": "Ing. de Sistemas",
+      "edad": 19
+    }
+  ]
+}

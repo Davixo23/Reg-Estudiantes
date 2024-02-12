@@ -1,0 +1,30 @@
+<app-navbar></app-navbar>
+<div class="contenedor">
+<h1>REGISTRO DE NUEVO ESTUDIANTE</h1>
+<section>
+    <form [formGroup]="formNuevoEstudiante" (ngSubmit)="guardarDatos()">
+        <mat-form-field>
+            <mat-label>Nombre: </mat-label>
+            <input matInput  formControlName="nombre" maxlength="60" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Apellido: </mat-label>
+            <input matInput formControlName="apellido" maxlength="60" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Edad: </mat-label>
+            <input type="number" matInput formControlName="edad" required>
+        </mat-form-field>
+        <mat-form-field>
+            <mat-label>Carrera: </mat-label>
+            <input matInput formControlName="carrera" maxlength="60" required>
+        </mat-form-field>
+        <button mat-raised-button color="primary" [disabled]="!formNuevoEstudiante.valid">Guardar</button>
+        
+        <button mat-raised-button routerLink="/dashboard">Cancelar</button>
+        @if (!formNuevoEstudiante.valid) {
+            <h3 id="vacio">Complete los datos, Con mayuscula al inicio y un rango de edad entre 18 - 65 años.</h3>
+        }
+    </form>
+</section>
+</div>
